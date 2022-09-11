@@ -1,0 +1,64 @@
+.container-footer{
+	
+	height: 21vh;
+	width: 100%;
+	background-color: #262637;
+	display: flex;
+	position: relative;
+
+}
+
+.body-footer{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+    
+}
+
+
+.footer-contact h1,h2 {
+	color: whitesmoke;
+	margin: 10px;
+	font-size: 15px;
+	font-family: 'Kanit', sans-serif;
+}
+
+.footer-icon h1{
+	color: whitesmoke;
+	margin: 10px;
+	font-size: 15px;
+	font-family: 'Kanit', sans-serif;
+}
+
+.icons{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+
+}
+
+.icons a{
+	color: whitesmoke;
+	cursor: pointer;
+}
+.mini-icons{
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+}
+
+.footer-span{
+	text-align: center;
+	background-color: #262637;
+
+
+}
+
+.footer-span span{
+
+	font-size: 13px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: whitesmoke;
+
+}

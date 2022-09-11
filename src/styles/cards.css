@@ -1,0 +1,261 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.card{
+     
+	text-align: center;
+	height: 120vh;
+	width: 100%;
+	border: none;
+	display: flex;
+	justify-content: space-around;
+
+
+
+}
+
+.card-container{
+	width: 300px;
+	height: 600px;
+	overflow: hidden;
+	box-shadow: 0px 0px 15px -5px;
+	border-radius: 10px;
+	transition: 0.3s;
+	margin-bottom: 20px;
+	animation: ease-in-out;
+
+
+}
+.card-container:hover{
+	transform: scale(1.0);
+	box-shadow: 0px 0px 15px 0px;
+}
+.card h1{
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+	position: relative;
+	font-size: 50px;
+	margin-top: 100px;
+
+}
+.btn{
+	position: relative;
+	background: black;
+	border: none;
+	text-align: center;
+	margin: 15x 20px;
+	
+}
+.btn:hover{
+	color: black;
+	background: whitesmoke;
+	border:2px solid black ;
+}
+.cards-list{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	position: relative;
+
+}
+.card-body{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin: 2px;
+
+}
+.card-img{
+	height: 350px;
+	width: 100%;
+ 	position: relative;
+}
+.card-title{
+	position: relative;
+
+}
+.card-text{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.card{
+	text-align: center;
+	height: 220vh;
+	width: 100%;
+	border: none;
+	display: inline-flex;
+	justify-content: safe start;
+	position: relative;
+	align-items: center;
+	margin-bottom: 250px;
+	
+	
+}
+
+.card-container{
+	width: 300px;
+	height: 600px;
+	overflow: hidden;
+	margin: 20px;
+	box-shadow: 0px 0px 15px -5px;
+	border-radius: 10px;
+	transition: 0.3s;
+	margin-bottom: 20px;
+	animation: ease-in-out;
+	
+	
+
+
+}
+.card-container:hover{
+	transform: scale(1.0);
+	box-shadow: 0px 0px 15px 0px;
+}
+.card h1{
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+	position: relative;
+	font-size: 50px;
+
+}
+.btn{
+	position: relative;
+	background: black;
+	border: none;
+	text-align: center;
+	margin: 15x 20px;
+	
+}
+.btn:hover{
+	color: black;
+	background: whitesmoke;
+	border:2px solid black ;
+}
+.cards-list{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	
+	position: relative;
+	margin: 10px;
+
+}
+.card-body{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin: 2px;
+
+
+}
+.card-img{
+	height: 350px;
+	width: 100%;
+ 	position: relative;
+}
+.card-title{
+	position: relative;
+
+}
+.card-text{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+}
+
+
+@media screen and (max-width: 705px) {
+	.card{
+	text-align: center;
+	height: 320vh;
+	width: 100%;
+	border: none;
+	display: inline-flex;
+	justify-content: safe start;
+	position: relative;
+	align-items: center;
+	
+	
+}
+
+.card-container{
+	width: 500px;
+	height: 600px;
+	overflow: hidden;
+	margin: 20px;
+	box-shadow: 0px 0px 15px -5px;
+	border-radius: 10px;
+	transition: 0.3s;
+	margin-bottom: 20px;
+	animation: ease-in-out;
+	
+	
+
+
+}
+.card-container:hover{
+	transform: scale(1.0);
+	box-shadow: 0px 0px 15px 0px;
+}
+.card h1{
+	font-family: 'Righteous', cursive;
+	padding: 10px;
+	position: relative;
+	font-size: 50px;
+
+}
+.btn{
+	position: relative;
+	background: black;
+	border: none;
+	text-align: center;
+	margin: 15x 20px;
+	
+}
+.btn:hover{
+	color: black;
+	background: whitesmoke;
+	border:2px solid black ;
+}
+.cards-list{
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	justify-content: center;
+	position: relative;
+	
+
+}
+.card-body{
+	width: 100%;
+	height: 100px;
+	position: relative;
+	margin: 2px;
+
+
+}
+.card-img{
+	height: 350px;
+	width: 100%;
+ 	position: relative;
+}
+.card-title{
+	position: relative;
+
+}
+.card-text{
+	position: relative;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+}

@@ -1,0 +1,14 @@
+.marketing-container{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	width: 100%;
+	align-items: center;
+}
+
+.marketing h1{
+	font-size: 100px;
+	position: relative;
+}
+

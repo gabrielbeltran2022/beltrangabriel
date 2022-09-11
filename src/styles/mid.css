@@ -1,0 +1,29 @@
+.banner{
+	height: 60vh;
+	width: 100%;
+	margin-top: 60px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	
+
+}
+
+.mid-banner{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 50vh;
+	width: 700px;
+	border-radius: 20px;
+	
+}
+
+.banner-img{
+	position: absolute;
+	height: 100%;
+	border-radius: 20px;
+	width: 100%;
+
+}
